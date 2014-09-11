@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0CBB0D19B40A5D00E830E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0CBB0C19B40A5D00E830E4 /* Foundation.framework */; };
+		CC0CBB0F19B40A5D00E830E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0CBB0E19B40A5D00E830E4 /* CoreGraphics.framework */; };
+		CC0CBB1119B40A5D00E830E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0CBB1019B40A5D00E830E4 /* UIKit.framework */; };
+		CC0CBB1719B40A5D00E830E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC0CBB1519B40A5D00E830E4 /* InfoPlist.strings */; };
+		CC0CBB1919B40A5D00E830E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0CBB1819B40A5D00E830E4 /* main.m */; };
+		CC0CBB1D19B40A5D00E830E4 /* SunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0CBB1C19B40A5D00E830E4 /* SunAppDelegate.m */; };
+		CC0CBB2019B40A5D00E830E4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0CBB1E19B40A5D00E830E4 /* Main_iPhone.storyboard */; };
+		CC0CBB2319B40A5D00E830E4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0CBB2119B40A5D00E830E4 /* Main_iPad.storyboard */; };
+		CC0CBB2619B40A5D00E830E4 /* SunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0CBB2519B40A5D00E830E4 /* SunViewController.m */; };
+		CC0CBB2819B40A5D00E830E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0CBB2719B40A5D00E830E4 /* Images.xcassets */; };
+		CC0CBB2F19B40A5D00E830E4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0CBB2E19B40A5D00E830E4 /* XCTest.framework */; };
+		CC0CBB3019B40A5D00E830E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0CBB0C19B40A5D00E830E4 /* Foundation.framework */; };
+		CC0CBB3119B40A5D00E830E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0CBB1019B40A5D00E830E4 /* UIKit.framework */; };
+		CC0CBB3919B40A5D00E830E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC0CBB3719B40A5D00E830E4 /* InfoPlist.strings */; };
+		CC0CBB3B19B40A5D00E830E4 /* CaptureUserLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0CBB3A19B40A5D00E830E4 /* CaptureUserLocationTests.m */; };
+		CC0CBB4719B40B1500E830E4 /* MMLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0CBB4619B40B1500E830E4 /* MMLocationManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC0CBB3219B40A5D00E830E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC0CBB0119B40A5D00E830E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0CBB0819B40A5D00E830E4;
+			remoteInfo = CaptureUserLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC0CBB0919B40A5D00E830E4 /* CaptureUserLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureUserLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0CBB0C19B40A5D00E830E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC0CBB0E19B40A5D00E830E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC0CBB1019B40A5D00E830E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC0CBB1419B40A5D00E830E4 /* CaptureUserLocation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaptureUserLocation-Info.plist"; sourceTree = "<group>"; };
+		CC0CBB1619B40A5D00E830E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC0CBB1819B40A5D00E830E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC0CBB1A19B40A5D00E830E4 /* CaptureUserLocation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CaptureUserLocation-Prefix.pch"; sourceTree = "<group>"; };
+		CC0CBB1B19B40A5D00E830E4 /* SunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SunAppDelegate.h; sourceTree = "<group>"; };
+		CC0CBB1C19B40A5D00E830E4 /* SunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunAppDelegate.m; sourceTree = "<group>"; };
+		CC0CBB1F19B40A5D00E830E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CC0CBB2219B40A5D00E830E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CC0CBB2419B40A5D00E830E4 /* SunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SunViewController.h; sourceTree = "<group>"; };
+		CC0CBB2519B40A5D00E830E4 /* SunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunViewController.m; sourceTree = "<group>"; };
+		CC0CBB2719B40A5D00E830E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC0CBB2D19B40A5D00E830E4 /* CaptureUserLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaptureUserLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0CBB2E19B40A5D00E830E4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC0CBB3619B40A5D00E830E4 /* CaptureUserLocationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaptureUserLocationTests-Info.plist"; sourceTree = "<group>"; };
+		CC0CBB3819B40A5D00E830E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC0CBB3A19B40A5D00E830E4 /* CaptureUserLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureUserLocationTests.m; sourceTree = "<group>"; };
+		CC0CBB4519B40B1500E830E4 /* MMLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLocationManager.h; sourceTree = "<group>"; };
+		CC0CBB4619B40B1500E830E4 /* MMLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLocationManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC0CBB0619B40A5D00E830E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0CBB0F19B40A5D00E830E4 /* CoreGraphics.framework in Frameworks */,
+				CC0CBB1119B40A5D00E830E4 /* UIKit.framework in Frameworks */,
+				CC0CBB0D19B40A5D00E830E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0CBB2A19B40A5D00E830E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0CBB2F19B40A5D00E830E4 /* XCTest.framework in Frameworks */,
+				CC0CBB3119B40A5D00E830E4 /* UIKit.framework in Frameworks */,
+				CC0CBB3019B40A5D00E830E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC0CBB0019B40A5D00E830E4 = {
+			isa = PBXGroup;
+			children = (
+				CC0CBB1219B40A5D00E830E4 /* CaptureUserLocation */,
+				CC0CBB3419B40A5D00E830E4 /* CaptureUserLocationTests */,
+				CC0CBB0B19B40A5D00E830E4 /* Frameworks */,
+				CC0CBB0A19B40A5D00E830E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC0CBB0A19B40A5D00E830E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0CBB0919B40A5D00E830E4 /* CaptureUserLocation.app */,
+				CC0CBB2D19B40A5D00E830E4 /* CaptureUserLocationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0CBB0B19B40A5D00E830E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC0CBB0C19B40A5D00E830E4 /* Foundation.framework */,
+				CC0CBB0E19B40A5D00E830E4 /* CoreGraphics.framework */,
+				CC0CBB1019B40A5D00E830E4 /* UIKit.framework */,
+				CC0CBB2E19B40A5D00E830E4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC0CBB1219B40A5D00E830E4 /* CaptureUserLocation */ = {
+			isa = PBXGroup;
+			children = (
+				CC0CBB4419B40B1500E830E4 /* manager */,
+				CC0CBB1B19B40A5D00E830E4 /* SunAppDelegate.h */,
+				CC0CBB1C19B40A5D00E830E4 /* SunAppDelegate.m */,
+				CC0CBB1E19B40A5D00E830E4 /* Main_iPhone.storyboard */,
+				CC0CBB2119B40A5D00E830E4 /* Main_iPad.storyboard */,
+				CC0CBB2419B40A5D00E830E4 /* SunViewController.h */,
+				CC0CBB2519B40A5D00E830E4 /* SunViewController.m */,
+				CC0CBB2719B40A5D00E830E4 /* Images.xcassets */,
+				CC0CBB1319B40A5D00E830E4 /* Supporting Files */,
+			);
+			path = CaptureUserLocation;
+			sourceTree = "<group>";
+		};
+		CC0CBB1319B40A5D00E830E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC0CBB1419B40A5D00E830E4 /* CaptureUserLocation-Info.plist */,
+				CC0CBB1519B40A5D00E830E4 /* InfoPlist.strings */,
+				CC0CBB1819B40A5D00E830E4 /* main.m */,
+				CC0CBB1A19B40A5D00E830E4 /* CaptureUserLocation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC0CBB3419B40A5D00E830E4 /* CaptureUserLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC0CBB3A19B40A5D00E830E4 /* CaptureUserLocationTests.m */,
+				CC0CBB3519B40A5D00E830E4 /* Supporting Files */,
+			);
+			path = CaptureUserLocationTests;
+			sourceTree = "<group>";
+		};
+		CC0CBB3519B40A5D00E830E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC0CBB3619B40A5D00E830E4 /* CaptureUserLocationTests-Info.plist */,
+				CC0CBB3719B40A5D00E830E4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC0CBB4419B40B1500E830E4 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				CC0CBB4519B40B1500E830E4 /* MMLocationManager.h */,
+				CC0CBB4619B40B1500E830E4 /* MMLocationManager.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC0CBB0819B40A5D00E830E4 /* CaptureUserLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0CBB3E19B40A5D00E830E4 /* Build configuration list for PBXNativeTarget "CaptureUserLocation" */;
+			buildPhases = (
+				CC0CBB0519B40A5D00E830E4 /* Sources */,
+				CC0CBB0619B40A5D00E830E4 /* Frameworks */,
+				CC0CBB0719B40A5D00E830E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaptureUserLocation;
+			productName = CaptureUserLocation;
+			productReference = CC0CBB0919B40A5D00E830E4 /* CaptureUserLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC0CBB2C19B40A5D00E830E4 /* CaptureUserLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0CBB4119B40A5D00E830E4 /* Build configuration list for PBXNativeTarget "CaptureUserLocationTests" */;
+			buildPhases = (
+				CC0CBB2919B40A5D00E830E4 /* Sources */,
+				CC0CBB2A19B40A5D00E830E4 /* Frameworks */,
+				CC0CBB2B19B40A5D00E830E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC0CBB3319B40A5D00E830E4 /* PBXTargetDependency */,
+			);
+			name = CaptureUserLocationTests;
+			productName = CaptureUserLocationTests;
+			productReference = CC0CBB2D19B40A5D00E830E4 /* CaptureUserLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC0CBB0119B40A5D00E830E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Sun;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC0CBB2C19B40A5D00E830E4 = {
+						TestTargetID = CC0CBB0819B40A5D00E830E4;
+					};
+				};
+			};
+			buildConfigurationList = CC0CBB0419B40A5D00E830E4 /* Build configuration list for PBXProject "CaptureUserLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC0CBB0019B40A5D00E830E4;
+			productRefGroup = CC0CBB0A19B40A5D00E830E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC0CBB0819B40A5D00E830E4 /* CaptureUserLocation */,
+				CC0CBB2C19B40A5D00E830E4 /* CaptureUserLocationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC0CBB0719B40A5D00E830E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0CBB2319B40A5D00E830E4 /* Main_iPad.storyboard in Resources */,
+				CC0CBB2819B40A5D00E830E4 /* Images.xcassets in Resources */,
+				CC0CBB2019B40A5D00E830E4 /* Main_iPhone.storyboard in Resources */,
+				CC0CBB1719B40A5D00E830E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0CBB2B19B40A5D00E830E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0CBB3919B40A5D00E830E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC0CBB0519B40A5D00E830E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0CBB4719B40B1500E830E4 /* MMLocationManager.m in Sources */,
+				CC0CBB1919B40A5D00E830E4 /* main.m in Sources */,
+				CC0CBB1D19B40A5D00E830E4 /* SunAppDelegate.m in Sources */,
+				CC0CBB2619B40A5D00E830E4 /* SunViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0CBB2919B40A5D00E830E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0CBB3B19B40A5D00E830E4 /* CaptureUserLocationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC0CBB3319B40A5D00E830E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0CBB0819B40A5D00E830E4 /* CaptureUserLocation */;
+			targetProxy = CC0CBB3219B40A5D00E830E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC0CBB1519B40A5D00E830E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC0CBB1619B40A5D00E830E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC0CBB1E19B40A5D00E830E4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC0CBB1F19B40A5D00E830E4 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CC0CBB2119B40A5D00E830E4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC0CBB2219B40A5D00E830E4 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CC0CBB3719B40A5D00E830E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC0CBB3819B40A5D00E830E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC0CBB3C19B40A5D00E830E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC0CBB3D19B40A5D00E830E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC0CBB3F19B40A5D00E830E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaptureUserLocation/CaptureUserLocation-Prefix.pch";
+				INFOPLIST_FILE = "CaptureUserLocation/CaptureUserLocation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC0CBB4019B40A5D00E830E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaptureUserLocation/CaptureUserLocation-Prefix.pch";
+				INFOPLIST_FILE = "CaptureUserLocation/CaptureUserLocation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CC0CBB4219B40A5D00E830E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CaptureUserLocation.app/CaptureUserLocation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaptureUserLocation/CaptureUserLocation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CaptureUserLocationTests/CaptureUserLocationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CC0CBB4319B40A5D00E830E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CaptureUserLocation.app/CaptureUserLocation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaptureUserLocation/CaptureUserLocation-Prefix.pch";
+				INFOPLIST_FILE = "CaptureUserLocationTests/CaptureUserLocationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC0CBB0419B40A5D00E830E4 /* Build configuration list for PBXProject "CaptureUserLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0CBB3C19B40A5D00E830E4 /* Debug */,
+				CC0CBB3D19B40A5D00E830E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0CBB3E19B40A5D00E830E4 /* Build configuration list for PBXNativeTarget "CaptureUserLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0CBB3F19B40A5D00E830E4 /* Debug */,
+				CC0CBB4019B40A5D00E830E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC0CBB4119B40A5D00E830E4 /* Build configuration list for PBXNativeTarget "CaptureUserLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0CBB4219B40A5D00E830E4 /* Debug */,
+				CC0CBB4319B40A5D00E830E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC0CBB0119B40A5D00E830E4 /* Project object */;
+}
